@@ -1,4 +1,5 @@
-let contieneGuion = "jasjasdasdasd-asdadasd".includes("-");
+let hola = prompt("ingrese hola")
+let contieneGuion = hola.includes(" ");
 console.log("contiene guion:", contieneGuion);
 let saludoMaria = "hola Maria 2023".includes("Maria 2024");
 console.log("Incluye maria:", saludoMaria);
